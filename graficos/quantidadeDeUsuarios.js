@@ -31,7 +31,10 @@ async function quantidadeDeUsuarios(){
         xaxis:{
             tickfont: tickfont,
             title: {
-                text: 'Nome das redes socias'
+                text: 'Nome das redes socias',
+                font:{
+                    color: getCSS('--cor-secundária')
+                }
             }
 
         }
