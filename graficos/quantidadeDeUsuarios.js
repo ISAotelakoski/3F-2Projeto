@@ -37,6 +37,16 @@ async function quantidadeDeUsuarios(){
                 }
             }
 
+        },
+        yaxis: {
+            tickfont: tickfont,
+            title: {
+                text: 'Milhões de usários ativos',
+                font: {
+                    color: getCSS('--cor-secundária')
+                }
+            }
+
         }
     }
 
