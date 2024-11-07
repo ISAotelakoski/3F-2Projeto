@@ -60,6 +60,9 @@ footer{
     text-align: center;
 }
 
+.grafico{
+    margin-top: 3rem;
+}
 .graficos-container{
     margin: 5rem;
 }
